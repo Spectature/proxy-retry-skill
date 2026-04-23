@@ -29,7 +29,7 @@ Common commands:
 - Always try the original command once first.
 - Only enable proxy retry when failure looks like network/connectivity failure.
 - Use temporary proxy settings only; do not persist global config unless user explicitly asks.
-- Default proxy: `http://127.0.0.1:7890` unless user provides another value.
+- Proxy resolution priority: explicit `-Proxy` argument -> environment proxy -> Windows system proxy -> `http://127.0.0.1:7890`.
 
 ## Script
 

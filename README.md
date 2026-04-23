@@ -8,6 +8,7 @@ A Codex skill for resilient CLI execution when network issues break downloads or
 
 - Runs your command once without proxy.
 - If it fails with network-like errors, retries with a temporary proxy.
+- Proxy resolution priority: explicit `-Proxy` argument -> environment proxy -> Windows system proxy -> `http://127.0.0.1:7890`.
 - Does not persist global proxy settings.
 - Supports npm/pnpm/yarn/git/curl and other networked CLIs.
 
@@ -23,6 +24,8 @@ A Codex skill for resilient CLI execution when network issues break downloads or
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts/invoke_with_proxy_retry.ps1 -Command "npm install"
 ```
+
+By default it auto-detects proxy from system settings (no extra argument required).
 
 Custom proxy:
 
