@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: Proxy Retry
+  description: Retry network-failing commands with temporary proxy fallback.
+  default_prompt: Use this skill when npm/git/curl or similar commands fail due to connectivity issues and retry with temporary proxy settings.
