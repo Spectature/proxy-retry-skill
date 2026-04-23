@@ -1,4 +1,4 @@
-﻿---
+---
 name: proxy-retry
 description: Automatically retry failing network commands with a temporary proxy when errors indicate connectivity issues (for npm, git, pnpm, yarn, curl, and similar CLI tools). Use when installs/pushes/downloads fail due to timeout, TLS, connection reset, or proxy-required network errors.
 ---

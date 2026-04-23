@@ -1,4 +1,4 @@
-﻿# proxy-retry-skill
+# proxy-retry-skill
 
 A Codex skill for resilient CLI execution when network issues break downloads or pushes.
 
