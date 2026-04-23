@@ -2,6 +2,8 @@
 
 A Codex skill for resilient CLI execution when network issues break downloads or pushes.
 
+中文说明: [README.zh-CN.md](README.zh-CN.md)
+
 ## What it does
 
 - Runs your command once without proxy.
